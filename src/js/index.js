@@ -1,5 +1,4 @@
 // App Controller
-/* NOTE - Carlsbad Caverns entrance fee and virgin islands annual passess are hard-coded at the moment */
 import axios from 'axios';
 import {
     returnMap
