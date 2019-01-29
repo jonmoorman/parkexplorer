@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Visit Our Parks</title>
+
+    <link href="/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="/img/favicon.ico"> 
+
+</head>
+
+<body>
+    <div id="navigation">
+        <div id="nav-contained">
+            <div id="logo">Park Explorer  <span id="parkNameNav"></span></div>
+            <form autocomplete="off" id="search">
+                <div id="search-container">
+                    <input autocomplete="off" id="searchBar" placeholder="Search A Park" type="text">
+                    <button class="search-btn">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="main-body">
+            <div class="banner">
+                <img class="banner-img" src="">
+                <div class="header-text"><h1 class="parkName parkNamePassed">---</h1></div>
+            </div>
+            <div class="info-body" id="weatherDesc">
+            </div>
+            <div class="black-bg" id="feeSection">
+                <center><h2 class="sub-title white" id="parkFees"></h2></center>
+                <div id="fee-container" class="flex-container"></div>
+                <div id="annualPassSection"></div>
+            </div>
+            <div class="info-body">
+                <div class="text-container" id="operatingHours"></div>
+                <div id="entranceSelect"></div>
+                <div class="text-container" id="entranceDesc"></div>
+            </div>
+            <div class="black-bg" id="directionInfo"></div>
+            <div id='map'></div>
+        </div>
+    </div>
+</body>
+</html>
